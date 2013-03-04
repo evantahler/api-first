@@ -9,11 +9,6 @@
 .polaroid {
   position: relative;
   width: 220px;
-    transform:rotate(2deg);
-    -ms-transform:rotate(2deg);
-    -moz-transform:rotate(2deg); 
-    -webkit-transform:rotate(2deg); 
-    -o-transform:rotate(2deg);
 }
 
 .highlight {
