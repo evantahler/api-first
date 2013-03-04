@@ -23,7 +23,17 @@ title: API First
       <li>We find that agile teams instinctively want to develop in an API-First way, but need ways to communicate across disciplines.</li>
     </ul>
 
-    <p><strong>We hate wasted work. We want to make the software development world more efficient place... and it all starts with your API.</strong></p>
+    <p><strong>We hate wasted work. We want to make the software development world a more efficient place... and it all starts with your API.</strong></p>
   </div>
 
+</div>
+
+<hr />
+
+<div>
+  <p>API-First.com is now open-source!<p>
+
+  <p>We want API-first to contain the best information from the community about what you have learned working in your teams.  You can contribute your thoughts, comments, stories, and visions at <a href="http://github.com/evantahler/api-first">our GitHub repository</a>.</p>
+
+  <p>To learn more about what this site needs and how you can help, please check out the <a href="http://github.com/evantahler/api-first/readme.md">readme</a></p>
 </div>

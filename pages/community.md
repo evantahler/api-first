@@ -7,6 +7,10 @@ title: API First - Community
 
 As the API-First community grows, we would love to showcase any presentations or documents you have showcasing how it has helped you and your team.  Please [contact us](/pages/contact.html) to submit links.
 
+## Testimonials:
+
+- coming soon
+
 ## Presentations:
 
 - coming soon
