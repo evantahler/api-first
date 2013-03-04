@@ -10,9 +10,9 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li id="nav_home"><a href="/">Overview</a></li>
-          <li id="nav_categories"><a href="/pages/teams.html">For Teams</a></li>
-          <li id="nav_about"><a href="/pages/engineers.html">For Engineers</a></li>
-          <li id="nav_gallery"><a href="/pages/community.html">Community</a></li>
+          <li id="nav_teams"><a href="/pages/teams.html">For Teams</a></li>
+          <li id="nav_engineers"><a href="/pages/engineers.html">For Engineers</a></li>
+          <li id="nav_community"><a href="/pages/community.html">Community</a></li>
           <li id="nav_contact"><a href="/pages/contact.html">Contact</a></li>
         </ul>
       </div>
@@ -21,15 +21,13 @@
 </div>
 
 <script>
-  var page = window.location.pathname.split('.')[0].replace('/',"");
-  if(page.length > 0 && window.location.pathname.split('/').length > 2){
-    page = page.split("/")[1]
-    $('.nav #nav_'+page).addClass('active');
-  }else{
-    if(window.location.pathname.split('/')[1] == "categories.html"){
-      $('.nav #nav_categories').addClass('active');
+  (function(){
+    var page = window.location.pathname.split('.')[0].replace('/',"");
+    if(page.length > 0 && window.location.pathname.split('/').length > 2){
+      page = page.split("/")[1]
+      $('.nav #nav_'+page).addClass('active');
     }else{
       $('.nav #nav_home').addClass('active');
     }
-  }
+  })();
 </script>
