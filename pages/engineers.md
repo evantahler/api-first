@@ -17,7 +17,7 @@ Changing your views no longer has any risk of changing your API.  Your front-end
 
 ### Scaling Only what You Need
 
-Take a common Rails application as an example.  A running Rails app may serve both the needs of a customer-facing website and API via separate routes.   However, the thread required to serve either a WWW request or an API request is the summation of both of their loads.  If I have 100MB of view templates, these are all required to be present in-memory to serve just an API request.
+Take a common Rails application as an example.  A running Rails app may serve both the needs of a customer-facing website and API via separate routes.   However, the thread required to serve either a full WWW page or an API request is the summation of both of their loads and profiles.  If I have 100MB of view templates, these are all required to be present in-memory to serve just an API request.  That is bad.
 
 Building your applications in an API-first way also allows you to think about the load profile of each part of your application.  To scale your API servers, you may need more CPU and RAM.  To scale your asset servers for the now static front-end, you may want more disc space.  You may want to develop your API in Sintata or Node.JS, but you may only need a static Nginx server for your views.  Splitting your application's load profile as we have been describing here will allow you to scale portions of your application as needed, not every potentially unneeded part.  Operationally, maximum re-usability, modularity, and scale is reached through separating API & data from view hardware loads (in true unix-style).
 
@@ -28,3 +28,7 @@ If your consumer-facing application no longer needs to be coupled to your back-e
 ### Embracing the Unix Philosophy
 
 Smaller applications are easier to test and maintain.  Smaller applications run faster.  It is easer to ramp up new people up on smaller application.
+
+<div align="center">
+  <img src="/images/OpsForAPI-First.jpg"></img>
+</div>
