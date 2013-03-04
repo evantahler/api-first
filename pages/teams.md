@@ -22,8 +22,12 @@ title: API First - Teams
     * iOS team designs, prototypes, builds front end.  
 5. As development progresses, API changes are discussed with PM as they come up and reviewed with team to be prioritized in sprint planners. 
 
-![Teams 1](/images/teams-1.jpg)
+<div align="center">
+  <img src="/images/teams-1.jpg"></img>
+</div>
 
 When you develop API-first, you can intelligently divide work into device or platform-specific front-end teams. This results in far more rich, device-specific interactions in a multi-platform world.  This also allows for parallel effort on teams.  You can start the engineering tasks much sooner while the final revisions of the UI and user testing are still happening.  This also serve to keep teams in sync better throughout the process.
 
-![Teams 2](/images/teams-2.jpg)
+<div align="center">
+  <img src="/images/teams-2.jpg"></img>
+</div>

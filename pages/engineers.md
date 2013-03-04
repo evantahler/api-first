@@ -9,6 +9,10 @@ title: API First - Engineers
 
 API-First development can also assist in making your scaling and operations more efficient.  API-First development can often be seen as taking the MVC paradigm to next step as you will be formally decoupling your views from your application logic (which we have been calling actions).  Many API-first applications take the form one API-sever (perhaps written in Node.js or Rails), and many separate View applications.  The view applications may take the form of a static HTML site(s), single-page-apps, or your mobile applications.  Separating these applications may be tedious at first, but there are many positives:
 
+<div align="center">
+  <img src="/images/userFunctionalDiagram.jpg"></img>
+</div>
+
 ### Deployment Safety
 
 Decoupling your API layer from your views also helps with a rapid / continuous deployment culture.  The smaller units of code which you need to deploy reduce the risk of each deployment.  If your front-end teams are updating the interface, you know there is no risk of corrupting the data in the database.  Conversely, if your API team is running a data migration, you know there is no risk that the front-end website will go down.  We previously discussed some of the benefits for API change management (/v1, /v2, etc).  This also is a benefit to deployment because you can be sure that the addition of a new API feature (with a new version) will not have an adverse effect on an existing feature.
