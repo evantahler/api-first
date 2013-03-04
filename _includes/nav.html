@@ -1,0 +1,36 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="../">Bricolage</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li id="nav_home"><a href="/">Home</a></li>
+          <li id="nav_categories"><a href="/categories.html">Categories</a></li>
+          <li id="nav_about"><a href="/pages/about.html">About</a></li>
+          <li id="nav_gallery"><a href="/pages/gallery.html">Gallery</a></li>
+          <li id="nav_software"><a href="/pages/software.html">Software</a></li>
+          <li id="nav_contact"><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var page = window.location.pathname.split('.')[0].replace('/',"");
+  if(page.length > 0 && window.location.pathname.split('/').length > 2){
+    page = page.split("/")[1]
+    $('.nav #nav_'+page).addClass('active');
+  }else{
+    if(window.location.pathname.split('/')[1] == "categories.html"){
+      $('.nav #nav_categories').addClass('active');
+    }else{
+      $('.nav #nav_home').addClass('active');
+    }
+  }
+</script>

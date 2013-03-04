@@ -1,0 +1,14 @@
+auto: true
+server: true
+future: false
+lsi: false
+safe: true
+
+markdown: rdiscount
+pygments: true
+permalink: /blog/:title.html
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - scripts

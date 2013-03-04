@@ -1,0 +1,87 @@
+body {
+    //background: #21211f;
+    background-image: url(cool_stars.gif); 
+	//background-repeat: repeat;
+    background-size: 100%;
+    background-origin: border;
+    width: 802px;
+    font-family: helvetica, arial, sans-serif;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.title { 
+    z-index: 10;
+    font-family: Impact; 
+    background-color: #FFFFFF; 
+    color: #0E94D3; 
+    text-decoration: none;
+    word-spacing: Normal; 
+    text-align: center; 
+    letter-spacing: 5px; 
+    text-indent: 0px; 
+    line-height: 200px; 
+    font-size: 70px; 
+}   
+
+#content{
+    z-index: 10;
+    width: 712px;
+    background: #466287 url(images/corner.jpg) top right no-repeat;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: Georgia, times, serif;
+    margin: 0 0 10px 0;
+    float: left;
+    clear: both;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 60px 20px 30px;
+}
+
+a, a:visited{
+    z-index: 10;
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover, a:hover:visited{
+    z-index: 10;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.form{
+    z-index: 10;
+    margin: 15px 0;
+    padding: 20px 0 20px 0;
+    background: url(form1.jpg) no-repeat;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.formname{
+    z-index: 10;
+    background: #FFFFFF;
+    font-family: helvetica, arial, sans-serif;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #30435D;
+    font-size: 18px;
+    margin: 0 15px 0 0;
+    width: 170px;
+    font-weight: bold;
+}
