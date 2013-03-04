@@ -20,6 +20,10 @@ title: API First - Contact
     <p>or</p>
     <br>
     <h4>You can e-mail <a href="mailto:fiona@api-first.com">Fiona</a> or <a href="mailto:evan@api-first.com">Evan</a></h4>
+    <br>
+    <p>or</p>
+    <br>
+    <h4>You can help contriube to this site on <a href="http://github.com/evantahler/api-first">our GitHub repository</a></h4>
   </div>
 
 </div>
