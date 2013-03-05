@@ -4,7 +4,7 @@ title: API First
 ---
 <div class="row">
 
-  <div class="span4">
+  <div class="span4 logo">
     <img src="/images/logo/logo.png" />
   </div>
 

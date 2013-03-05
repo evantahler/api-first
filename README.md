@@ -20,8 +20,8 @@ To contribute, please fork the site and send us a pull request with your changes
 
 [api-first.com](http://api-first.com) is a static site hosted by [GitHub pages](http://pages.github.com/).  We use [Jekyll](http://jekyllrb.com/) to build the site and test it locally.  Here's a quick guide:
 
-- insall [Ruby](http://www.ruby-lang.org/) (comes with OSX)
+- install [Ruby](http://www.ruby-lang.org/) (comes with OSX)
 - [git](http://git-scm.com/) clone this project
 - [install](http://gembundler.com/) bundler
-- insall the gems this project needs with `bundle install`
+- install the gems this project needs with `bundle install`
 - run jekyll `jekyll --auto` which will run this site locally on port 4000.
