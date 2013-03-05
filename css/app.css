@@ -2,8 +2,27 @@
 	margin-top: 50px;
 }
 
+img {
+  margin: 20px;
+}
+
+.logo img,
+.brand img {
+  margin: 0;
+}
+
 .nav li{
 	margin-top: 23px;
+}
+
+#body-container p,
+#body-container li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#body-container li {
+  line-height: 20px;
 }
 
 .polaroid {
@@ -16,6 +35,7 @@
 }
  
 .polaroid img {
+  margin: 0;
   border: 10px solid #fff;
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
@@ -30,4 +50,8 @@
   bottom: 0px;
   font: 400 18px/1;
   color: #888;
+}
+
+#body-container footer p {
+  font-size: 14px;
 }
