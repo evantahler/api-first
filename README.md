@@ -4,17 +4,17 @@ Welcome to the git repository for `www.api-first.com`!
 
 We've established API-first.com to evolve over time as teams experiment with our suggestions and share insights of their own.  You can contribute your thoughts, edits, comments, stories, and visions here. Feel free to challenge what we've written and share your learnings! 
 
-## Where did the comments go?
-
-Rather than have the community's knowledge burred in comments, we would rather let you contribute directly to the site.  This gives you first-class access to share what you know with the world.
-
 ## How can I help?
 
-API-first will be stronger if we can learn from each other.
+API-first will be stronger if we can learn from each other.  We invite you to contribue your experineces in the form of a blog post.  Please fork this repo and submit your new post in the form of a pull request.
 
-Right now, there are 2 parts of the site that need major help: the Community page and the Illustrations.  If you've given a relevant talk or written a related blog post, please submit to our community page.  We also need help turning our ugly process flows into beautiful illustrations.  If that is something you can help with, please let us know!
+Aside from content, there are 2 parts of the site that need the most help: the Community page and Illustrations.  If you've given a relevant talk or written a related blog post, please submit to our community page.  We also need help turning our ugly process flows into beautiful illustrations.  If that is something you can help with, please let us know!
 
 To contribute, please fork the site and send us a pull request with your changes.  GitHub has some [excellent free tools to help you](https://help.github.com/articles/using-pull-requests).  I cannot guarantee that all content will make it into the site, but if enough folks think your contribution adds value, we will be sure to include it.
+
+## Where did the comments go?
+
+Rather than have the community's knowledge burred in comments, we would rather let you contribute directly to the site.  This gives you first-class access to share what you know with the world.  Please contribute!
 
 ## How do I build the site?
 
