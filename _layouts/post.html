@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+
+  <HEAD>
+    {% include header-common.html %}
+  </HEAD>
+
+  <BODY>
+    {% include nav.html %}
+
+    <div id="body-container" class="container">
+      <h1>{{ page.title }}</h1>
+
+      <p>
+        <em>By: <a href="{{ page.author_link }}" target="_blank">{{ page.author }}</a></em><br />
+        <em style="color:#E62914;"><strong>Posted</strong>: {{ page.date | date_to_string }}</em><br />
+        <em style="color:#E62914;"><strong>Categories</strong>:
+        {% for category in page.categories %}
+          <a href="/categories.html#{{ category }}">{{ category }}</a>
+        {% endfor %}
+        </em>
+      </p>
+
+      {{ content }}
+
+      <hr />
+
+      {% include pagination.html %}
+
+      {% include footer.html %}
+
+    </div>
+    
+  </BODY>
+
+</HTML>

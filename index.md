@@ -1,6 +1,5 @@
 ---
 layout: default
-title: API First
 ---
 <div class="row">
 
@@ -30,12 +29,23 @@ title: API First
 
 <hr />
 
-<div>
-  <p>API-First.com is now open-source!<p>
+<div class="row">
 
-  <p>We want API-first to contain the best information from the community about what you have learned working in your teams.  You can contribute your thoughts, comments, stories, and visions at <a href="http://github.com/evantahler/api-first">our GitHub repository</a>.</p>
+  <div class="span8">
+    <p>API-First.com is now open-source!<p>
 
-  <p>To learn more about what this site needs and how you can help, please check out the <a href="https://github.com/evantahler/api-first/blob/gh-pages/README.md">readme</a></p>
+    <p>We want API-first to contain the best information from the community about what you have learned working in your teams.  You can contribute your thoughts, comments, stories, and visions at <a href="http://github.com/evantahler/api-first">our GitHub repository</a>.</p>
+
+    <p>To learn more about what this site needs and how you can help, please check out the <a href="https://github.com/evantahler/api-first/blob/gh-pages/README.md">readme</a></p>
+  </div>
+
+  <div class="span4">
+    <h4>Newest Post:</h4>
+    {% assign first_post = site.posts.first %}
+    <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3> @ {{ first_post.date | date_to_string }}
+    <br />
+    <br />
+    {% include categories.html %}
+  </div>
+
 </div>
-
-test

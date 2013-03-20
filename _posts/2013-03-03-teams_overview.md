@@ -1,10 +1,14 @@
 ---
-layout: default
-title: API First - Teams
+published: true
+layout: post
+title: Teams Overview
+author: Fiona
+author_link: https://twitter.com/fodmc
+categories:
+- Teams
+- Engineering
+- Design
 ---
-
-# Teams
-<br />
 
 ### We believe small, specialized teams move fast. And they move even faster when they manage their own work. 
 

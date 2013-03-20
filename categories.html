@@ -1,0 +1,55 @@
+---
+layout: default
+title: Categories
+---
+
+<div id="categories"></div>
+
+<script>
+  var posts = [];
+  var categories = [];
+  {% for post in site.posts %}
+    posts.push({
+      title: '{{ post.title }}',
+      url: '{{ post.url }}',
+      date: '{{ post.date | date_to_string }}',
+      categories: [{% for category in post.categories %} '{{ category }}', {% endfor %}]
+    });
+  {% endfor %}
+
+  for(var i in posts){
+    for(c in posts[i].categories){
+      var category = posts[i].categories[c];
+      if(categories.indexOf(category) < 0){
+        categories.push(category);
+      }
+    }
+  }
+
+  var cleanHash = window.location.hash.replace("#", "");
+  if(categories.indexOf(cleanHash) > -1){
+    pageCategory = "Category: " + cleanHash;
+    category = cleanHash;
+    $("#categories").html("<h1>"+pageCategory+"</h1>");
+    $("#categories").append("<p><a onClick=\"javascript:changeCategory('');\">All Categories</a></p>");
+    posts.forEach(function(post){
+      if(post.categories.indexOf(category) >= 0){
+        $("#categories").append("<li>" + post.date + ": " + "<a href=\""+post.url+"\">" + post.title + "</a>" + "</li>");
+      }
+    });
+  }else{
+    pageCategory = "Categories";
+    $("#categories").html("<h1>"+pageCategory+"</h1>");
+    categories.forEach(function(category){
+      $("#categories").append("<h2><a onClick=\"javascript:changeCategory('"+category+"');\">"+category+"</a></h2>");
+      $("#categories").append('<ul>');
+      posts.forEach(function(post){
+        if(post.categories.indexOf(category) >= 0){
+          $("#categories").append("<li>" + post.date + ": " + "<a href=\""+post.url+"\">" + post.title + "</a>" + "</li>");
+        }
+      });
+      $("#categories").append('</ul>');
+    });
+  }
+
+</script>

@@ -1,10 +1,13 @@
 ---
-layout: default
-title: API First - Engineers
+published: true
+layout: post
+title: Engineering Overview
+author: Evan
+author_link: https://evantahler.com
+categories:
+- Teams
+- Engineering
 ---
-
-# Engineers
-<br />
 
 ### Introduction
 API-First development can also assist in making your scaling and operations more efficient.  API-First development can often be seen as taking the MVC paradigm to next step as you will be formally decoupling your views from your application logic (which we have been calling actions).  Many API-first applications take the form one API-sever (perhaps written in Node.js or Rails), and many separate View applications.  The view applications may take the form of a static HTML site(s), single-page-apps, or your mobile applications.  Separating these applications may be tedious at first, but there are many positives:

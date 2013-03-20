@@ -1,3 +1,7 @@
+a:link {
+  text-decoration: underline;
+}
+
 #body-container{
 	margin-top: 50px;
 }

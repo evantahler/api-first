@@ -9,11 +9,20 @@
       <a class="brand" href="../"><img style="height:50px" src="/images/logo/logo_wide_small.png" /></a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li id="nav_home"><a href="/">Overview</a></li>
-          <li id="nav_teams"><a href="/pages/teams.html">For Teams</a></li>
-          <li id="nav_engineers"><a href="/pages/engineers.html">For Engineers</a></li>
+          <li id="nav_home"><a href="/">Home</a></li>
+          <li id="nav_teams"><a href="/pages/posts.html">Posts</a></li>
+
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Guide <b class="caret"></b></a>
+              <ul class="dropdown-menu" id="swatch-menu">
+                <li><a onClick="javascript:changeCategory('Teams');">For Teams</a></li>
+                <li><a onClick="javascript:changeCategory('Engineering');">For Engineers</a></li>
+                <li><a onClick="javascript:changeCategory('Design');">For Designers</a></li>
+              </ul>
+            </li>
+
           <li id="nav_community"><a href="/pages/community.html">Community</a></li>
-          <li id="nav_contact"><a href="/pages/contact.html">Contact</a></li>
+          <li id="nav_contact"><a href="/pages/about.html">About</a></li>
         </ul>
       </div>
     </div>
@@ -21,6 +30,8 @@
 </div>
 
 <script>
+
+  // TODO: fix this
   (function(){
     var page = window.location.pathname.split('.')[0].replace('/',"");
     if(page.length > 0 && window.location.pathname.split('/').length > 2){
@@ -30,4 +41,14 @@
       $('.nav #nav_home').addClass('active');
     }
   })();
+
+  var changeCategory = function(hash){
+    if(window.location.pathname == "/categories.html"){
+      window.location.hash = hash;
+      location.reload();
+    }else{
+      window.location.href = "/categories.html#" + hash;
+    }
+  }
+
 </script>

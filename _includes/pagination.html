@@ -1,0 +1,10 @@
+<p>
+{% if page.previous.url %} 
+<a style="float:left;" href="{{page.previous.url}}"><strong>&lt;&lt;</strong> {{page.previous.title}}</a> 
+{% endif %} 
+
+{% if page.next.url %} 
+<a style="float:right;" href="{{page.next.url}}">{{page.next.title}} <strong>&gt;&gt;</strong></a> 
+{% endif %} 
+</p>
+<br style="clear:both;" />

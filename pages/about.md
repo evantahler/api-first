@@ -1,9 +1,11 @@
 ---
 layout: default
-title: API First - Contact
+title: About
 ---
 
-# Contact
+# About API-First.com
+
+## Contact
 
 <div class="row">
 
@@ -23,7 +25,14 @@ title: API First - Contact
     <br>
     <p>or</p>
     <br>
-    <h4>You can help contriube to this site on <a href="http://github.com/evantahler/api-first">our GitHub repository</a></h4>
+    <h4>You can help contribute to this site on <a href="http://github.com/evantahler/api-first">our GitHub repository</a></h4>
   </div>
 
 </div>
+
+<hr />
+
+## Acknowledgments
+
+- Logo components from [The Noun Project](http://thenounproject.com/)
+- Hosting from [GitHub Pages](http://pages.github.com)
