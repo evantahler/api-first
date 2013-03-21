@@ -18,6 +18,8 @@ This list of software projects is in no way exhaustive, but these projects have 
 - [ActionHero (node.js)](http://actionherojs.com)
 - [Parse (Mobile Backend)](http://parse.com)
 - [Firebase (JS Backend)](http://firebase.com)
+- [Swagger (Multi-language backend)](https://developers.helloreverb.com/swagger/)
+- [SailsJS (node.js)](http://balderdashy.github.com/sails/)
 
 ## Blog Posts
 
