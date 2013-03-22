@@ -20,6 +20,7 @@ This list of software projects is in no way exhaustive, but these projects have 
 - [Firebase (JS Backend)](http://firebase.com)
 - [Swagger (Multi-language backend)](https://developers.helloreverb.com/swagger/)
 - [SailsJS (node.js)](http://balderdashy.github.com/sails/)
+- [Percolator (node.js)](http://percolatorjs.com/)
 
 ## Blog Posts
 
