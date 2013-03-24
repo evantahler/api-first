@@ -30,7 +30,7 @@ There are many application where API-First doesn't apply.  For example, if you a
 
 If you team is very small (1 developer, 1 designer) API-First Development may be too much overhead.  This is a very valid concern!  However, I have found that when I find myself in a group this small, we actually end up doing API-First development anyway! 
 
-We probably didn't agree on a formal API document beforehand, and we probably never had an inception, but we are doing it none-the-less… it's simply a logical way to separate our work!  
+We probably didn't agree on a formal API document beforehand, and we probably never had an inception, but we are doing it none-the-less... it's simply a logical way to separate our work!  
 
 If we would have taken the time to have an inception and flesh out the API ahead of time, often we would have saved ourselves some trouble when it came to integrate.  Often times, even though the features match, the variable names or language don't.  Re-Work is required to fix it.
 
