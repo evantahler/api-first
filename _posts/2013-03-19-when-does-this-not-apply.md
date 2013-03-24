@@ -16,7 +16,7 @@ In this post, I will explore some of the downsides of API-First development, and
 
 The main "catch" of developing in an API-First way is that your first release will take longer.  There is no way around it.  There is additional overhead of creating 2 applications (your front end application and your backend API).  There is also additional cognitive overhead for everyone on the team to think not only about their pice of the puzzle (engineering, design, project management, product management), but also how to express their work in the terms of the agreed-upon API.
 
-Doing all of this will slow you team down… at first.  **If you believe that your project will ONLY ever have one expression, then perhaps API first is not for you**.  
+Doing all of this will slow you team down... at first.  **If you believe that your project will ONLY ever have one expression, then perhaps API first is not for you**.  
 
 However, there are caveats: 
 
