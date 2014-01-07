@@ -25,5 +25,3 @@ Rather than have the community's knowledge burred in comments, we would rather l
 - [install](http://gembundler.com/) bundler
 - install the gems this project needs with `bundle install`
 - run jekyll `jekyll --auto` which will run this site locally on port 4000.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/evantahler/api-first/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
