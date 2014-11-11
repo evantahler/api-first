@@ -10,7 +10,7 @@ API-first will be stronger if we can learn from each other.  We invite you to co
 
 Aside from content, there are 2 parts of the site that need the most help: the Community page and Illustrations.  If you've given a relevant talk or written a related blog post, please submit to our community page.  We also need help turning our ugly process flows into beautiful illustrations.  If that is something you can help with, please let us know!
 
-To contribute, please fork the site and send us a pull request with your changes.  GitHub has some [excellent free tools to help you](https://help.github.com/articles/using-pull-requests).  I cannot guarantee that all content will make it into the site, but if enough folks think your contribution adds value, we will be sure to include it.
+To contribute, please fork the site and send us a pull request with your changes.  GitHub has some [excellent free tools to help you](https://help.github.com/articles/using-pull-requests).  I cannot guarantee that all content will make it into the site, but if enough folks think your contribution adds value, we will be sure to include it.  
 
 ## Where did the comments go?
 
@@ -20,8 +20,10 @@ Rather than have the community's knowledge burred in comments, we would rather l
 
 [api-first.com](http://api-first.com) is a static site hosted by [GitHub pages](http://pages.github.com/).  We use [Jekyll](http://jekyllrb.com/) to build the site and test it locally.  Here's a quick guide:
 
+- [fork the project](https://help.github.com/articles/fork-a-repo/)
 - install [Ruby](http://www.ruby-lang.org/) (comes with OSX)
 - [git](http://git-scm.com/) clone this project
 - [install](http://gembundler.com/) bundler
 - install the gems this project needs with `bundle install`
-- run jekyll `jekyll --auto` which will run this site locally on port 4000.
+- run jekyll `jekyll serve --watch` which will run this site locally on port 4000.
+- send your change in a [pull request](https://help.github.com/articles/using-pull-requests/), and once they are merged, your changes will be up on the site!

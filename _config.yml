@@ -1,14 +1,5 @@
-auto: true
-server: true
-future: false
-lsi: false
-safe: true
-
-markdown: rdiscount
+name: api-first.com
+url: http://api-first.com
+markdown: redcarpet
 pygments: true
 permalink: /blog/:title.html
-exclude: 
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
-  - scripts
