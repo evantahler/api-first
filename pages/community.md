@@ -19,7 +19,8 @@ This list of software projects is in no way exhaustive, but these projects have 
 - [Parse (Mobile Backend)](http://parse.com)
 - [Firebase (JS Backend)](http://firebase.com)
 - [Swagger (Multi-language backend)](https://developers.helloreverb.com/swagger/)
-- [SailsJS (node.js)](http://balderdashy.github.com/sails/)
+- [SailsJS (node.js)](http://balderdashy.github.com/sails/) BluePrint oriented
+- [LoopBack (node.js)](http://loopback.io/) Swagger oriented
 - [Percolator (node.js)](http://percolatorjs.com/)
 - [Contentful](https://www.contentful.com/)
 
