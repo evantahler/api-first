@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Comparing API-First to Mobile First
-author: Eavn
+author: Evan
 author_link: http://evantahler.com
 categories:
 - Teams
