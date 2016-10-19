@@ -12,7 +12,7 @@ layout: default
     <br>
     <p>This site is a curated collection of agile, engineering, and product management best practices to get you started on the road to API-First development.</p>
 
-    <p>In a multi-platform world, teams need to reorganize around API-First principals to <strong>efficiently</strong> and <strong>quickly</strong> create experiences and products which work across many devices.  We are here to help.</p>
+    <p>In a multi-platform world, teams need to reorganize around API-First principles to <strong>efficiently</strong> and <strong>quickly</strong> create experiences and products which work across many devices.  We are here to help.</p>
 
     <h4>Problems that might sound familiar:</h4>
 
